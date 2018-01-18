@@ -1,11 +1,3 @@
-//
-//  main.cpp
-//  05 prostokąt i punkt (funkcje zaprzyjaźnione)
-//
-//  Created by Dzem on 14/01/2018.
-//  Copyright © 2018 Wojciech Arendt. All rights reserved.
-//
-
 #include <iostream>
 #include "przyjaciele.hpp"
 

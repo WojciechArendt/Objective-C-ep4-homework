@@ -1,19 +1,3 @@
-//
-//  przyjaciele.hpp
-//  05 prostokąt i punkt (funkcje zaprzyjaźnione)
-//
-//  Created by Dzem on 14/01/2018.
-//  Copyright © 2018 Wojciech Arendt. All rights reserved.
-//
-/*
-#ifndef przyjaciele_hpp
-#define przyjaciele_hpp
-
-#include <stdio.h>
-
-#endif // przyjaciele_hpp
-*/
-
 #include <iostream>
 
 using namespace std;
