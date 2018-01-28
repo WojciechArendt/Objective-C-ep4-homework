@@ -34,3 +34,11 @@ void Rectangle::load()
     cout<<"Define height: "; cin>>height;
     cout<<"Define name of this rectangle: "; cin>>name;
 }
+
+void Rectangle::judge(Point &pkt, Rectangle &r) // ampersant, czyli &, pozwoli funkcji pracować na oryginałach zamiast tworzyć kopie obiektów na potrzeby wynowywania poleceń
+{
+    if ((pkt.x>=r.x)&&(pkt.x<=r.x+r.width)&&(pkt.y>=r.y)&&(pkt.y<=r.y+r.height))
+        cout<<endl<<"Point "<<pkt.name<<" is inside: "<<r.name;
+    else
+        cout<<endl<<"Point "<<pkt.name<<" is outside: "<<r.name;
+}
